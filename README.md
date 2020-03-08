@@ -18,5 +18,5 @@ Files: Convolution/satimgconv.py, Convolution/SatImgConv.ipynb
 <h3>GAN:</h3>
 Generative Adversarial network was implemented which is available in the files: GAN/satimggan.py, GAN/SatImgGAN.ipynb
 <h2>Results:</h2>
-Convolution: The model failed to reconstruct the images even during the training. Results are available in the SatImgConv.ipynb.
+Convolution: The model failed to reconstruct the images even during the training. Results are available in the SatImgConv.ipynb.<br>
 GAN: The model is able to reconstruct the images during the training but is overfitting to the training data. Therefore, the testing performance is heavily degraded. Results are available in the SatImgGan.ipynb
