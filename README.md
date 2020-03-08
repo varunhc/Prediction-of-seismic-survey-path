@@ -20,4 +20,4 @@ Generative Adversarial network was implemented which is available in the files: 
 <h2>Results:</h2>
 Convolution: The model failed to reconstruct the images even during the training. Results are available in the SatImgConv.ipynb.<br>
 GAN: The model is able to reconstruct the images during the training but is overfitting to the training data. Therefore, the testing performance is heavily degraded. Results are available in the SatImgGan.ipynb
-<a href="GAN/SatImgGan.ipynb">SatImgGan.ipynb</a>
+<a href="Prediction-of-seismic-survey-path/GAN/SatImgGan.ipynb">SatImgGan.ipynb</a>
