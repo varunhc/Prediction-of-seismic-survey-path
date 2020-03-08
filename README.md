@@ -16,4 +16,4 @@ Convolutional models and Generative Adversarial Networks(GANs) were implemented 
 Convolutional models with different architectures were implemented.
 Files: satimgconv.py(Convolution/satimgconv.py), SatImgConv.ipynb(Convolution/SatImgConv.ipynb)
 <h3>GAN:</h3>
-Generative Adversarial network was implemented which is available in the files: satimggan.py(Convolution/satimggan.py), SatImgGAN.ipynb(Convolution/SatImgGAN.ipynb)
+Generative Adversarial network was implemented which is available in the files: satimggan.py(GAN/satimggan.py), SatImgGAN.ipynb(GAN/SatImgGAN.ipynb)
