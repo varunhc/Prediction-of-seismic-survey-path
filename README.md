@@ -7,8 +7,8 @@ My work was to predict this path based on the paths that were chosen in the prev
 projects. If the model successfully predicts the paths, then it would be a huge aid to the
 geophysicists working on the project.
 <h2>Dataset:</h2>
-Satellite images with seismic survey paths marked were used as input. They were cropped down to the dimension of 66x66 with 3 channels ie RGB.
-[Input]:(images/WSHP16-04(1).jpg)
+Satellite images with seismic survey paths marked were used as input. They were cropped down to the dimension of 66x66 with 3 channels ie RGB.<br>
+[Input]:(images/WSHP16-04(1).jpg)<br>
 [Expected output]:(images/SHP16-04(1).jpg)
 <h2>Approach:</h2>
 Convolutional models and Generative Adversarial Networks(GANs) were implemented to check the prediction performance.
