@@ -8,8 +8,8 @@ projects. If the model successfully predicts the paths, then it would be a huge 
 geophysicists working on the project.
 <h2>Dataset:</h2>
 Satellite images with seismic survey paths marked were used as input. They were cropped down to the dimension of 66x66 with 3 channels ie RGB.<br>
-[Input]:<img src = "images/WSHP16-04(1).jpg">(images/WSHP16-04(1).jpg)<br>
-[Expected output]:(images/SHP16-04(1).jpg)
+<h3>Input:</h3><img src = "images/WSHP16-04(1).jpg"><br>
+<h3>Expected output:</h3><img src = "images/SHP16-04(1).jpg"
 <h2>Approach:</h2>
 Convolutional models and Generative Adversarial Networks(GANs) were implemented to check the prediction performance.
 <h3>Convolution:</h3>
@@ -20,3 +20,4 @@ Generative Adversarial network was implemented which is available in the files: 
 <h2>Results:</h2>
 Convolution: The model failed to reconstruct the images even during the training. Results are available in the SatImgConv.ipynb.<br>
 GAN: The model is able to reconstruct the images during the training but is overfitting to the training data. Therefore, the testing performance is heavily degraded. Results are available in the SatImgGan.ipynb
+<a href="GAN/SatImgGan.ipynb">SatImgGan.ipynb</a>
